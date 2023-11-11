@@ -1,0 +1,9 @@
+owl-carousel-o {
+  ::ng-deep {
+    .owl-stage {
+      .owl-item {
+        width: auto !important;
+      }
+    }
+  }
+}

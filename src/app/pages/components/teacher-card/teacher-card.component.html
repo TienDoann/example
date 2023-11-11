@@ -1,0 +1,33 @@
+<owl-carousel-o [options]="customOptions" >
+  <ng-template carouselSlide *ngFor="let item of data">
+    <div class="card mb-5" style="padding-inline: 10px;">
+      <img [src]="item.image" alt="image" />
+      <div class="card-body teacher-content p-25">
+        <h4 class="card-title mb-4">
+          <a href="teacher-details.html">{{ item.name }}</a>
+        </h4>
+        <span class="primary-color font-italic d-block mb-3">{{
+          item.subtitle
+        }}</span>
+        <p class="card-text limited-text">{{ item.text }}</p>
+        <ul class="list-inline">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-deviantart"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </ng-template>   
+</owl-carousel-o>
