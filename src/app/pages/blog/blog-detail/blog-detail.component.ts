@@ -11,5 +11,26 @@ import {TeacherCourseCardComponent} from "../../components/teacher-course-card/t
   styleUrl: './blog-detail.component.css'
 })
 export class BlogDetailComponent {
-  categories: any[] = [];
+  data = [
+    {
+      id: 1,
+      name: 'Đoàn Liêng tiến',
+    },
+    {
+      id: 2,
+      name: 'Đoàn Liêng tiến',
+    },
+    {
+      id: 3,
+      name: 'Đoàn Liêng tiến',
+    },
+    {
+      id: 4,
+      name: 'Đoàn Liêng tiến',
+    },
+  ];
+  ngOnInit() {
+  console.log('data:::',this.data);
+
+  }
 }
