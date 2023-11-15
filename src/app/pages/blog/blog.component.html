@@ -6,7 +6,21 @@
   </div>
 </div>
 
-<app-blog-card class="flex"></app-blog-card>
+<!-- <app-blog-card class="flex"></app-blog-card> -->
+<div class="flex-container">
+  <div class="card mb-5" *ngFor="let item of data">
+    <img class="card-img-top" [src]="item.image" alt="image">
+    <div class="card-body p-25">
+      <ul class="list-inline primary-color mb-3">
+        <li><i class="fa fa-clock-o"></i> AUGUST 6, 2017</li>
+        <li><i class="fa fa-comments"></i> 3 Comments</li>
+      </ul>
+      <h4 class="card-title mb-4"><a href="blog-details.html">{{item.subtitle}}</a></h4>
+      <p class="card-text limited-text">{{item.text}}</p>
+      <a class="btn btn-primary btn-round btn-sm" href="blog-details.html"> Read More </a>
+    </div>
+  </div>
+</div>
 
 <div class="cta-area  secondary-bg has-color ptb--50">
   <div class="container">

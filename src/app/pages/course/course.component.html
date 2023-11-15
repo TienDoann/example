@@ -6,7 +6,44 @@
   </div>
 </div>
 <!--class="col-lg-4 col-md-6"-->
-<app-course-card class="flex"></app-course-card>
+
+<div class="flex-container" >
+  <div class="card mb-5" *ngFor="let item of data">
+    <div class="course-thumb">
+      <img [src]="item.image" alt="image">
+      <span class="cs-price primary-bg">{{item.price}}</span>
+    </div>
+    <div class="card-body  p-25">
+      <div class="course-meta-title mb-4">
+        <div class="course-meta-text">
+          <h4><a href="course-details.html">{{item.subtitle}}</a></h4>
+          <ul class="course-meta-stats">
+            <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+            <li>36 <i class="fa fa-comment"></i></li>
+            <li>85 <i class="fa fa-heart"></i></li>
+          </ul>
+        </div>
+        <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" [src]="item.image" alt="image"> </a>
+      </div>
+      <p class="limited-text">{{item.text}}</p>
+      <ul class="course-meta-details list-inline  w-100">
+        <li>
+          <p>Course</p> 
+          <span>{{item.course}}</span>
+        </li>
+        <li>
+          <p>Class Size</p>
+          <span>{{item.classSize}}</span>
+        </li>
+        <li>
+          <p>Duration</p>
+          <span>{{item.Duration}}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 
 <div class="cta-area  secondary-bg has-color ptb--50">
   <div class="container">

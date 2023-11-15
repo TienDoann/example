@@ -43,28 +43,28 @@ export class TeacherCardComponent {
       name: 'Đoàn Liêng tiến',
       subtitle: 'Công nghệ thông tin',
       text: 'asdfasdfasmgndfkbglsbafsadf1sa4f6sa1f3a5s4d6fas1df334tq4rqwasdfasdfasmgndfkbglsbafsadf1sa4f6sa1f3a5s4d6fas1df334tq4rqw',
-      image: '../../../assets/images/teacher/teacher-member1.jpg',
+      image: 'assets/images/teacher/teacher-member1.jpg',
     },
     {
       id: 2,
       name: 'Đoàn Liêng tiến',
       subtitle: 'Công nghệ thông tin',
       text: 'asdfasdfasmgndfkbglsbafsadf1sa4f6sa1f3a5s4d6fas1df334tq4rqwasdfasdfasmgndfkbglsbafsadf1sa4f6sa1f3a5s4d6fas1df334tq4rqw',
-      image: '../../../assets/images/teacher/teacher-member1.jpg',
+      image: 'assets/images/teacher/teacher-member1.jpg',
     },
     {
       id: 3,
       name: 'Đoàn Liêng tiến',
       subtitle: 'Công nghệ thông tin',
       text: 'asdfasdfasmgndfkbglsbafsadf1sa4f6sa1f3a5s4d6fas1df334tq4rqwasdfasdfasmgndfkbglsbafsadf1sa4f6sa1f3a5s4d6fas1df334tq4rqw',
-      image: '../../../assets/images/teacher/teacher-member1.jpg',
+      image: 'assets/images/teacher/teacher-member1.jpg',
     },
     {
       id: 4,
       name: 'Đoàn Liêng tiến',
       subtitle: 'Công nghệ thông tin',
       text: 'asdfasdfasmgndfkbglsbafsadf1sa4f6sa1f3a5s4d6fas1df334tq4rqwasdfasdfasmgndfkbglsbafsadf1sa4f6sa1f3a5s4d6fas1df334tq4rqw',
-      image: '../../../assets/images/teacher/teacher-member1.jpg',
+      image: 'assets/images/teacher/teacher-member1.jpg',
     },
   ];
 
